@@ -14,5 +14,6 @@ class App < Sinatra::Base
   :name => "Sam",
   :favorite_food => "Green Eggs and Ham"
 }
+    params.to_s
   end
 end
